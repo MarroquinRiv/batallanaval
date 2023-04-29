@@ -7,8 +7,6 @@ try
     Console.WriteLine("\n0. JUGAR\n1. Objetivo del juego\n2.Cómo jugar\n3. Salir");
     op1 = Convert.ToInt32(Console.ReadLine());
 
-    do
-    {
         switch (op1)
         {
             case 0:
